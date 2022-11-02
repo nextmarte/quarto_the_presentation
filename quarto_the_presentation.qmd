@@ -1,7 +1,38 @@
 ---
 title: "Quarto: the presentation"
-author: "Marcus Antonio Cardoso Ramalho"
-format: revealjs
-editor: visual
+
+title-slide-attributes:
+    data-background-video: "/imgs/bg.mp4"
+# title-slide-attributes:
+#     data-background-image: "/imgs/bg.png"
+#     data-background-size: cover
+#     data-background-opacity: "120%"
+#bibliography: 
+
+author: "Marcus Ramalho"
+format: 
+  revealjs:
+    theme: [dark,styles/custom.scss]
+    incremental: true
+    preview-links: auto
+    logo: imgs/PPGAd.png
+    footer: <marcusantonio@id.uff.br> 
+date: '`r Sys.Date()`'
 ---
 
+::: header2
+## [O que é?]{.header2 style="text-align:center"} {background-video="/imgs/bg.mp4" background-video-loop="true" background-opacity="1"}
+
+![](imgs/logo-quarto.jpg){.imgs}
+:::
+
+##  {background-video="/imgs/bg.mp4" background-video-loop="true" background-opacity="1"}
+
+### É um ambiente open source para criação de:
+
+-   Documentos ![](imgs/documentos.png){width="5%"}
+-   Sites/blogs ![](imgs/local-na-rede-internet%20(1).png){width="5%"}
+-   Apresentações ![](imgs/apresentacao.png){width="5%"}
+-   Relatórios ![](imgs/relatorio-de-negocios.png){width="5%"}
+-   Livros ![](imgs/dia-mundial-do-livro.png){width="5%"}
+-   Artigos científicos ![](imgs/report.png){width="5%"}

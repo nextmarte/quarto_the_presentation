@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+.title {
+  font-size: 100px !important;
+  color: white!important;
+  font-weight: bold!important; 
+}
+.subtitle {
+  font-size: 40px !important;
+  color: white !important;
+  text-align: right
+}
+
+.uri {
+  font-size: 20px !important;
+  color: white !important;
+  position: right!important;
+}
+
+.author {
+  font-size: 40px;
+  color: white;
+}
+
+.date {
+  font-size: 20px;
+  color: white;
+}
+
+.header2 {
+  color: white;
+  font-size: 100px;
+  text-align:center;
+}
+
+.imgs{
+  position: center;
+}
+
+
+/*-- scss:rules --*/
