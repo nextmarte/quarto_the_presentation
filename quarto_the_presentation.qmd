@@ -1,0 +1,7 @@
+---
+title: "Quarto: the presentation"
+author: "Marcus Antonio Cardoso Ramalho"
+format: revealjs
+editor: visual
+---
+
